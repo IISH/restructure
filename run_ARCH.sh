@@ -158,4 +158,5 @@ function main {
 
 main
 
+echo "Done"
 exit 0

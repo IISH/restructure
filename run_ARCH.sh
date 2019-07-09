@@ -111,7 +111,7 @@ function identifiers {
             echo "," >> "$identifiers_file"
         fi
 
-        id=$(uuid)
+        id=$(uuidgen)
         pid="${NA}/${id^^}"
         echo "{
         \"file\": \"${filename}\",
